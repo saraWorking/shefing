@@ -4,6 +4,7 @@
     background-color: white;
     display: flex;
     padding: 2%;
+    z-index: 2;
 }
 .header input {
     width: 50%;

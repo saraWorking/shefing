@@ -1,5 +1,7 @@
 .jumbotron{
     border : 3px solid black;
+    width: 40%;
     border-radius : 5px !important;
-    margin : 10px !important;
+    margin-left : 30% !important;
+
 }

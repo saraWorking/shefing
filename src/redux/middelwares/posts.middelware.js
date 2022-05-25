@@ -10,8 +10,10 @@ export const getPostsByUser = ({ dispatch, getState }) => next => action => {
             .then(data => {
                 console.log('Success:', data);
                 dispatch(actions.setPosts(data));
-                action.payload.history.push("/userPosts")
-
+                // action.payload.history.push("/userPosts")
+                action.payload.history&&action.payload.history.push({
+                    pathname: "/userPosts",
+                    state: { userId:action.payload.userId }})
             })
             .catch((error) => {
                 console.error('Error:', error);

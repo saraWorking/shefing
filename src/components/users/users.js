@@ -60,10 +60,6 @@ export default function Users() {
 
                 ))}</div>
         </>
-        // <div className="div">
-        //     <b>user name :{name}</b>
-        //     <Input value={name} onChange={(e)=>handlerChange(e.target.value)}></Input>
-        //     <button className="btn btn-primary" onClick={handlerClick}>save</button>
-        // </div>
+       
     )
 }
